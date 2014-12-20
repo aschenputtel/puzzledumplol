@@ -5,19 +5,19 @@
 	}
 			
 	a:link {
-		font-family: 'Roboto';
+		font-family: 'Raleway';
 		color: 101010;
 	}
 	a:visited {
-		font-family: 'Roboto';
+		font-family: 'Raleway';
 		color: 16A9A0;
 	}
 	a:hover {
-		font-family: 'Roboto';
+		font-family: 'Raleway';
 		color: 1BC0B6;
 	}
 	a:active {
-		font-family: 'Roboto';
+		font-family: 'Raleway';
 		color: 1ED7CB;
 	}
 			
@@ -28,12 +28,13 @@
 	}
 		
 	#sorrynotsorry{
-		font: 20px 'Roboto', sans-serif;
+		font: 20px 'Raleway', sans-serif;
 	}
 	
 	#thelinks{
 		line-height: 1.5em;
 		letter-spacing: 2px;
 		text-align: center;
+		color: 101010;
 		display: inline-block;
 	}

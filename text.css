@@ -6,7 +6,7 @@
 			
 	a:link {
 		font-family: 'Raleway';
-		color: 101010;
+		color: 128F87;
 	}
 	a:visited {
 		font-family: 'Raleway';
@@ -19,6 +19,10 @@
 	a:active {
 		font-family: 'Raleway';
 		color: 1ED7CB;
+	}
+
+	div{
+		font: 14px 'Raleway';
 	}
 			
 	#leftspacing{

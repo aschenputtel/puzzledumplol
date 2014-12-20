@@ -1,0 +1,43 @@
+<!--DOCTYPE html-->
+<html>
+	<head>
+		<link href='http://fonts.googleapis.com/css?family=Raleway:400,500,600,700,800,900,300,200,100' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" type="text/css" href="text.css" media="screen" />
+		<title>PuzzleDump | Basic ASM</title>
+		
+	</head>
+	<body>
+		<center><img src="header.png"></center>
+		<div id = "leftspacing">
+			<code>
+				#x86 ASM AT&T Syntax<br>
+				#The answer is the value of %eax after the NOP runs.<br>
+				#stolen from picoCTF. Sorta.<br>
+ 				<br><br>
+				MOV $8567, %ebx<br>
+				MOV $24493, %eax<br>
+				MOV $17707, %ecx<br>
+				CMP %eax, %ebx<br>
+				JL L1<br>
+				JMP L2<br>
+ 				<br><br>
+				L1:<br>
+				IMUL %eax, %ebx<br>
+				ADD %eax, %ebx<br>
+				MOV %ebx, %eax<br>
+				SUB %ecx, %eax<br>
+				JMP L3<br>
+ 				<br><br>
+				L2:<br>
+				IMUL %eax, %ebx<br>
+				SUB %eax, %ebx<br>
+				MOV %ebx, %eax<br>
+				ADD %eax, %eax<br>
+				JMP L3<br>
+ 				<br><br>
+				L3:<br>
+				NOP
+			</code>
+		</div>
+	</body>
+</html>

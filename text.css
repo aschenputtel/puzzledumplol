@@ -1,0 +1,39 @@
+
+	body{
+		background-color: 000222;
+		color: fafafa;
+	}
+			
+	a:link {
+		font-family: 'Roboto';
+		color: 101010;
+	}
+	a:visited {
+		font-family: 'Roboto';
+		color: 16A9A0;
+	}
+	a:hover {
+		font-family: 'Roboto';
+		color: 1BC0B6;
+	}
+	a:active {
+		font-family: 'Roboto';
+		color: 1ED7CB;
+	}
+			
+	#leftspacing{
+		width: 700px ;
+		margin-left: auto ;
+		margin-right: auto ;
+	}
+		
+	#sorrynotsorry{
+		font: 20px 'Roboto', sans-serif;
+	}
+	
+	#thelinks{
+		line-height: 1.5em;
+		letter-spacing: 2px;
+		text-align: center;
+		display: inline-block;
+	}

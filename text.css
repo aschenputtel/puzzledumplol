@@ -1,7 +1,10 @@
 
+	/*guys, for puzzle #1, hexadecimal will help. a lot.*/
 	body{
-		background-color: 000222;
-		color: fafafa;
+		background-color: fbfaff;
+		color: 000;
+		font-family: 'Raleway';
+		font-weight: 200;
 	}
 			
 	a:link {

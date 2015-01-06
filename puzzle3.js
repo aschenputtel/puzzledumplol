@@ -1,6 +1,6 @@
+var count = 1;
 function answerIntake() {
     var answer = prompt("Answer:");
-    var count = 1;
     
     if (answer.toLowerCase() == 'there is no such thing as coincidence.' || answer.toLowerCase() == 'there is no such thing as coincidence') {
         document.getElementById("textchange").innerHTML = 'You got the answer right! Take the code "c2hno3" back to IceQueenMiki.';

@@ -3,41 +3,24 @@
 	<head>
 		<link href='http://fonts.googleapis.com/css?family=Raleway:400,500,600,700,800,900,300,200,100' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" type="text/css" href="text.css" media="screen" />
-		<title>PuzzleDump | Basic ASM</title>
+		<script type="text/javascript" src="puzzle3.js"></script>
+		<title>PuzzleDump | Chemistry's Favorite Cipher</title>
 		
 	</head>
 	<body>
 		<center><img src="header.png"></center>
 		<div id = "leftspacing">
 			<code>
-				#x86 ASM AT&T Syntax<br>
-				#The answer is the value of %eax after the NOP runs.<br>
-				#stolen from picoCTF. Sorta.<br>
- 				<br><br>
-				MOV $8567, %ebx<br>
-				MOV $24493, %eax<br>
-				MOV $17707, %ecx<br>
-				CMP %eax, %ebx<br>
-				JL L1<br>
-				JMP L2<br>
- 				<br><br>
-				L1:<br>
-				IMUL %eax, %ebx<br>
-				ADD %eax, %ebx<br>
-				MOV %ebx, %eax<br>
-				SUB %ecx, %eax<br>
-				JMP L3<br>
- 				<br><br>
-				L2:<br>
-				IMUL %eax, %ebx<br>
-				SUB %eax, %ebx<br>
-				MOV %ebx, %eax<br>
-				ADD %eax, %eax<br>
-				JMP L3<br>
- 				<br><br>
-				L3:<br>
-				NOP
+				[22, 1, 63, 44, 63] [77, 16] [7, 8] [16, 92, 6, 1] [22, 1, 77, 7, 31] [33, 16] [6, 8, 77, 7, 6, 77, 66, 63, 7, 6, 63]
 			</code>
+			a few hints//<br>
+			<p>1. Chemistry.</p>
+			<p>2. Dimitri Mendeleev</p><br>
+			<p> Each number is equivalent to one letter [substitution cipher]. Eg. 47 = C (it doesn't)</p>
+			<p>Enter the answer below; no brackets, punctuation optional.</p>
+			answer // <button onclick="answerIntake">Click to attempt.</button>
+			<p id="textchange"></p>
+
 		</div>
 	</body>
 </html>
